@@ -74,8 +74,6 @@ em { color: var(--pink-deep); font-style: normal; }
 .student-pack { padding: 30px max(24px, calc((100vw - 1180px)/2)); display: grid; grid-template-columns: .85fr 1.3fr; gap: 70px; color: var(--paper); background: var(--navy); }
 .pack-intro h2 { margin: 0; font-size: clamp(27px, 2.8vw, 38px); line-height: 1.28; letter-spacing: -.04em; }
 .pack-intro em { color: var(--pink); }
-.pack-logo { width: fit-content; margin: 22px auto 0; padding: 0; display: block; line-height: 0; background: transparent; }
-.pack-logo img { width: 104px; height: 104px; object-fit: contain; }
 .pack-items { border-top: 1px solid rgba(255,255,255,.23); }
 .pack-item { padding: 34px 0; display: grid; grid-template-columns: 150px 1fr; gap: 28px; border-bottom: 1px solid rgba(255,255,255,.23); }
 .pack-number { color: var(--pink); font: 700 64px/.9 var(--latin); letter-spacing: -.06em; }
